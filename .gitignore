@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual env
+venv/
+.env
+
+# Models (too large)
+*.gguf
+*.bin
+*.safetensors
+
+# Vector DB (rebuildable)
+vector_db/
+chroma_db/
+vector_store/
+vector_store_data/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Experiment outputs (reproducible)
+*.log
+output/
+comparison_results/
+comparison_models/
+benchmark_data/
